@@ -19,7 +19,7 @@ header{
 
 /*corp*/
 
-#menu1, #menu2, #menu3, #menu4{
+.menu1, .menu2, .menu3, .menu4{
     background-color: #fcdfdb;
     width: 530px;
     height: 750px;
@@ -29,4 +29,27 @@ header{
     display: inline-flex;
     border-radius: 1%;
     box-shadow: 0.5px 0.5px 10px grey;
+}
+
+/*footer*/
+
+.prochainement{
+    width: 350px;
+    height: 50px;
+    background-color: #579c87;
+    font-family: 'NoyhRW01-SemiLight';
+    color: #fdcb46;
+    font-size: 40px;
+    border-radius: 5%;
+}
+
+p{
+    margin-left: 15px;
+}
+
+.contact{
+    background-color: #579c87;
+    display: inline-flex;
+    color: #fdcb46;
+    font-family: 'NoyhRW01-SemiLight';
 }
