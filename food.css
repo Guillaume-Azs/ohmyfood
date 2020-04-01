@@ -1,7 +1,11 @@
+/*general*/
+
 body, html{
     padding: 0;
     margin: 0;
 }
+
+/*header*/
 
 header{
     background-color: #579c87;
@@ -11,4 +15,18 @@ header{
     line-height: 150px;
     text-align: center;
     font-size: 55px
+}
+
+/*corp*/
+
+#menu1, #menu2, #menu3, #menu4{
+    background-color: #fcdfdb;
+    width: 530px;
+    height: 750px;
+    margin-top: 80px;
+    margin-left: 85px;
+    margin-right: 100px;
+    display: inline-flex;
+    border-radius: 1%;
+    box-shadow: 0.5px 0.5px 10px grey;
 }
