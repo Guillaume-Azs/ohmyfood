@@ -1,0 +1,14 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #579c87;
+    color: #fdcb46;
+    font-weight: bold;
+    font-family: 'breulgroteskA-regular';
+    line-height: 150px;
+    text-align: center;
+    font-size: 55px
+}
