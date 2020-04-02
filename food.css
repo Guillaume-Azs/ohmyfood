@@ -3,11 +3,17 @@
 body, html{
     padding: 0;
     margin: 0;
-    display: table;
     height: 100%;
     width: 100%;
 }
 
+#contenair1{
+    display: flex;
+}
+
+#contenair2{
+    display: flex;
+}
 /*header*/
 
 header{
@@ -21,33 +27,28 @@ header{
 }
 
 /*corp*/
-#contenair{
-    height: auto;
-    position: relative;
-}
 .menu1, .menu2, .menu3, .menu4{
     width: 530px;
     height: 750px;
     margin-top: 80px;
-    margin-left: 85px;
-    margin-right: 100px;
     border-radius: 1%;
     box-shadow: 0.5px 0.5px 10px grey;
-    display: inline-flex;
 }
 #music{
-    padding-top: 45%;
+    padding-top: 35%;
     font-size: 130px;
     color: #f78f6a;
+    transition: transform .5s;
 }
 .note{
     font-size: 45px;
-    font-family: 'DK carrot juice';
+    font-family: 'devonshire';
     margin-top: 0
 }
 .titre1{
     font-size: 50px;
     font-weight: bold;
+    font-family: 'segoe print';
 }
 .note, .titre1{
     color: #3c1218;
@@ -59,17 +60,54 @@ header{
 .menu1{
     background-color: #fcdfdb;
     display: block;
-}
-.titre1{
-    font-family: 'segoe print';
+    margin-left: 7%;
+    margin-right: 12%
 }
 
+.le-chic{
+    font-family: 'croissant one';
+    font-size: 33px;
+    margin-top: 62%;
+    margin-left: 15%;
+    width: 400px
+}
+
+.titre2{
+    font-size: 50px;
+    font-family: 'segoe print';
+    margin-left: 35%;
+}
+
+.papille{
+    font-family: 'parisienne';
+    font-size: 45px;
+    margin-left: 80px;
+    margin-top: 60%
+}
+.titre3{
+    font-size: 50px;
+    font-family: 'segoe print';
+    margin-left: 32%;
+}
+.palette{
+    font-family: 'tillana';
+    font-size: 45px;
+    margin-left: 90px;
+    margin-top: 60%
+}
+.titre4{
+    font-family: 'segoe print';
+    margin-left: 37%;
+    font-size: 50px;
+}
 .menu2{
     background-color: #fff5fe;
 }
 
 .menu3{
     background-color: #f9f9f9;
+    margin-left: 7%;
+    margin-right: 12%
 }
 
 .menu4{
@@ -94,7 +132,15 @@ header{
 }
 
 footer{
-    height: 1px;
     background-color: #579c87;
-    display: table-row;
+    display: flex;
+    height: 100px
+}
+
+#contenair{
+    display: flex;
+    color: #fdcb46;
+    font-family: 'NoyhRW01-SemiLight';
+    font-size: 30px;
+    margin-left: 40px;
 }
