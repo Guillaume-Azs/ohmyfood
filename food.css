@@ -93,7 +93,7 @@ header a{
 
 .le-chic{
     font-family: 'croissant one';
-    font-size: 40px;
+    font-size: 38px;
     width: 100%;
     background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
     color: transparent;
@@ -120,7 +120,7 @@ header a{
 }
 .palette{
     font-family: 'tillana';
-    font-size: 50px;
+    font-size: 48px;
     background-image: linear-gradient(to right, #42973c, #69b852, #9be16c, #bfff7e);
     color: transparent;
     -webkit-background-clip: text;
