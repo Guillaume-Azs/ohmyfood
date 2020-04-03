@@ -91,7 +91,7 @@ header a{
 .le-chic{
     font-family: 'croissant one';
     font-size: 40px;
-    width: 600px;
+    width: 800px;
     background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
     color: transparent;
     -webkit-background-clip: text;
@@ -169,7 +169,9 @@ footer{
     font-family: 'NoyhRW01-SemiLight', sans-serif;
     font-size: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%
 }
 
 #point1, #point2, #point3{
