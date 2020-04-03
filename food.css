@@ -140,7 +140,7 @@ header a{
 }
 /*footer*/
 #asuivre{
-    margin-bottom: 10%;
+    height: 30%;
 }
 .prochainement{
     background-color: #579c87;
@@ -148,7 +148,7 @@ header a{
     color: #fdcb46;
     font-size: 40px;
     border-radius: 5px;
-    width: 350px;
+    width: 370px;
     line-height: 70px;
     margin: 20px auto;
 }
@@ -169,7 +169,7 @@ footer{
     font-family: 'NoyhRW01-SemiLight', sans-serif;
     font-size: 30px;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 #point1, #point2, #point3{
