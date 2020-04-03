@@ -251,3 +251,19 @@ footer a{
     90%{transform: translate(-1px,-1px);}
     100%{transform: translate(1px,1px);}
 }
+
+/*Responsive*/
+
+@media screen and (max-width: 1080px)
+{
+    #asuivre{
+        height: 15%;
+    }
+    
+    #contenair{
+        font-size: 40px;
+    }
+    .prochainement{
+        font-size: 45px;
+    }
+}
