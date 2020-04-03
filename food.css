@@ -9,24 +9,30 @@ body, html{
 
 #contenair1{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #contenair2{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 a{
     text-decoration: none;
 }
 /*header*/
-
+h1{
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+}
 header{
     background-color: #579c87;
-    font-weight: bold;
     font-family:'breulgroteskA-regular', sans-serif;
-    line-height: 150px;
-    text-align: center;
-    font-size: 55px
+    padding-top: 20px;
+    padding-bottom: 20px
 }
 
 header a{
@@ -34,9 +40,18 @@ header a{
 }
 
 /*corp*/
+.animation1, .animation2, .animation3, .animation4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
 .menu1, .menu2, .menu3, .menu4{
-    width: 530px;
-    height: 750px;
+    width: 600px;
+    height: 850px;
     margin-top: 80px;
     border-radius: 1%;
     box-shadow: 0.5px 0.5px 10px grey;
@@ -49,87 +64,67 @@ header a{
     transition: transform 3s;
 }
 #music{
-    margin-top: 35%;
-    font-size: 130px;
+    font-size: 100px;
     transition: transform .5s;
     background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
 }
 .note{
     font-size: 55px;
     font-family: 'devonshire', cursive;
-    margin-top: 0
+    margin: 0;
 }
 .titre1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'tillana';
 }
 .note, .titre1{
     color: #3c1218;
 }
-#music, .note, .titre1{
-    display: flex;
-    justify-content: center;
-}
 .menu1{
     background-color: #fcdfdb;
     display: block;
-    margin-left: 7%;
-    margin-right: 12%
 }
 
 .le-chic{
     font-family: 'croissant one';
     font-size: 33px;
-    margin-top: 65%;
-    margin-left: 15%;
     width: 400px;
     background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
 }
 
 .titre2{
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'tillana';
-    margin-left: 35%;
     color: #c77412;
 }
 
 .papille{
     font-family: 'parisienne';
     font-size: 45px;
-    margin-left: 80px;
-    margin-top: 60%;
     background-image: linear-gradient(to right, #0431df, #0655eb, #126df1, #0887fb);
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
 }
 .titre3{
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'tillana';
-    margin-left: 32%;
     color: #0887fb;
 }
 .palette{
     font-family: 'tillana';
     font-size: 45px;
-    margin-left: 90px;
-    margin-top: 58%;
     background-image: linear-gradient(to right, #42973c, #69b852, #9be16c, #bfff7e);
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
 }
 .titre4{
     font-family: 'tillana';
-    margin-left: 37%;
-    font-size: 50px;
+    font-size: 40px;
     color: #72bf56
 }
 .menu2{
@@ -138,25 +133,24 @@ header a{
 
 .menu3{
     background-color: #f9f9f9;
-    margin-left: 7%;
-    margin-right: 12%
 }
 
 .menu4{
     background-color: #fdfffd;
 }
 /*footer*/
-
+#asuivre{
+    margin-bottom: 10%;
+}
 .prochainement{
     background-color: #579c87;
     font-family: 'NoyhRW01-SemiLight', sans-serif;
     color: #fdcb46;
     font-size: 40px;
     border-radius: 5px;
-    margin-bottom: 5px;
     width: 350px;
-    line-height: 80px;
-    margin: auto;
+    line-height: 70px;
+    margin: 20px auto;
 }
 
 .prochainement p{
@@ -165,22 +159,17 @@ header a{
 
 footer{
     background-color: #579c87;
-    display: flex;
     width: 100%;
     position: fixed;
     bottom: 0;
 }
 
-#contenair .mention{
-    margin-right: 920px
-}
-
 #contenair{
-    display: flex;
     color: #fdcb46;
     font-family: 'NoyhRW01-SemiLight', sans-serif;
     font-size: 30px;
-    margin-left: 40px;
+    display: flex;
+    justify-content: space-around
 }
 
 #point1, #point2, #point3{
