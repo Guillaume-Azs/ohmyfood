@@ -23,7 +23,7 @@ a{
 header{
     background-color: #579c87;
     font-weight: bold;
-    font-family: 'breulgroteskA-regular';
+    font-family:'breulgroteskA-regular', sans-serif;
     line-height: 150px;
     text-align: center;
     font-size: 55px
@@ -149,7 +149,7 @@ header a{
 
 .prochainement{
     background-color: #579c87;
-    font-family: 'NoyhRW01-SemiLight';
+    font-family: 'NoyhRW01-SemiLight', sans-serif;
     color: #fdcb46;
     font-size: 40px;
     border-radius: 5px;
@@ -178,7 +178,7 @@ footer{
 #contenair{
     display: flex;
     color: #fdcb46;
-    font-family: 'NoyhRW01-SemiLight';
+    font-family: 'NoyhRW01-SemiLight', sans-serif;
     font-size: 30px;
     margin-left: 40px;
 }
