@@ -64,19 +64,19 @@ header a{
     transition: transform 3s;
 }
 #music{
-    font-size: 100px;
+    font-size: 130px;
     transition: transform .5s;
     background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
     color: transparent;
     -webkit-background-clip: text;
 }
 .note{
-    font-size: 55px;
+    font-size: 60px;
     font-family: 'devonshire', cursive;
     margin: 0;
 }
 .titre1{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
     font-family: 'tillana';
 }
@@ -90,41 +90,41 @@ header a{
 
 .le-chic{
     font-family: 'croissant one';
-    font-size: 33px;
-    width: 400px;
+    font-size: 40px;
+    width: 600px;
     background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
     color: transparent;
     -webkit-background-clip: text;
 }
 
 .titre2{
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'tillana';
     color: #c77412;
 }
 
 .papille{
     font-family: 'parisienne';
-    font-size: 45px;
+    font-size: 50px;
     background-image: linear-gradient(to right, #0431df, #0655eb, #126df1, #0887fb);
     color: transparent;
     -webkit-background-clip: text;
 }
 .titre3{
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'tillana';
     color: #0887fb;
 }
 .palette{
     font-family: 'tillana';
-    font-size: 45px;
+    font-size: 50px;
     background-image: linear-gradient(to right, #42973c, #69b852, #9be16c, #bfff7e);
     color: transparent;
     -webkit-background-clip: text;
 }
 .titre4{
     font-family: 'tillana';
-    font-size: 40px;
+    font-size: 45px;
     color: #72bf56
 }
 .menu2{
@@ -148,7 +148,7 @@ header a{
     color: #fdcb46;
     font-size: 40px;
     border-radius: 5px;
-    width: 370px;
+    width: 390px;
     line-height: 70px;
     margin: 20px auto;
 }
