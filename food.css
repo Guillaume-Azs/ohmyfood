@@ -1,8 +1,8 @@
 /*general*/
 
 body, html{
-    padding: 0;
     margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
 }
@@ -23,6 +23,9 @@ a{
     text-decoration: none;
 }
 /*header*/
+.entete{
+    width: 100%;
+}
 h1{
     font-size: 4em;
     text-align: center;
@@ -32,7 +35,7 @@ header{
     background-color: #579c87;
     font-family:'breulgroteskA-regular', sans-serif;
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 header a{
@@ -91,7 +94,7 @@ header a{
 .le-chic{
     font-family: 'croissant one';
     font-size: 40px;
-    width: 800px;
+    width: 100%;
     background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
     color: transparent;
     -webkit-background-clip: text;
@@ -159,9 +162,9 @@ header a{
 
 footer{
     background-color: #579c87;
-    width: 100%;
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 #contenair{
@@ -171,7 +174,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-left: 3%;
-    margin-right: 3%
+    margin-right: 3%;
 }
 
 #point1, #point2, #point3{
