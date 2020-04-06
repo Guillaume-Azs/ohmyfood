@@ -28,16 +28,31 @@ header a{
 
 /*Corps*/
 
-.trait1, .trait2{
-    position: absolute;
-}
-.trait1{
-    margin-left: 5%;
+.border {
+    display: inline-block;
+    text-decoration: none;
 }
 
-.trait2{
-    margin-left: 60%
+.border::after {
+    content:'';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #42973c;
+    transition: width .3s;
 }
+
+.border:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.Titre-menu1, .Titre-menu2, .Titre-menu3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .premiertitre{
     font-size: 2em;
     text-align: center;
@@ -47,7 +62,7 @@ header a{
 
 .menu4{
     width: 90%;
-    height: 1300px;
+    height: 1400px;
     border-radius: 1%;
     box-shadow: 0.5px 0.5px 10px grey;
     background-color: #f9f9f9;
@@ -131,4 +146,23 @@ footer a{
     80%{transform: translate(1px,1px);}
     90%{transform: translate(-1px,-1px);}
     100%{transform: translate(1px,1px);}
+}
+
+/* responsive */
+
+@media screen and (max-width:1200px)
+{
+    img{
+        height: 30px;
+    }
+    .menu4{
+        margin-bottom: 10%;
+        height: 1650px
+    }
+    li{
+        font-size: 1.4em;
+    }
+    .plat{
+        margin-left: 0
+    }
 }

@@ -28,16 +28,66 @@ header a{
 
 /*Corps*/
 
-.trait1, .trait2{
-    position: absolute;
-}
-.trait1{
-    margin-left: 6%;
+.border1 {
+    display: inline-block;
+    color: #d17200;
+    text-decoration: none;
 }
 
-.trait2{
-    margin-left: 60%
+.border1::after {
+    content:'';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #d17200;
+    transition: width .3s;
 }
+
+.border1:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.border2 {
+    display: inline-block;
+    color: #ac6baf;
+    text-decoration: none;
+}
+
+.border2::after {
+    content:'';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #ac6baf;
+    transition: width .3s;
+}
+
+.border2:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.border3 {
+    display: inline-block;
+    color: #905bfd;
+    text-decoration: none;
+}
+
+.border3::after {
+    content:'';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #905bfd;
+    transition: width .3s;
+}
+
+.border3:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
 .premiertitre{
     font-size: 2em;
     text-align: center;
@@ -47,12 +97,12 @@ header a{
 
 .menu2{
     width: 90%;
-    height: 1300px;
+    height: 1500px;
     border-radius: 1%;
     box-shadow: 0.5px 0.5px 10px grey;
     background-color: #fff5fe;
     margin: 0 auto;
-    margin-bottom: 10%;
+    margin-bottom: 9%;
 }
 .chic{
     font-size: 50px;
@@ -66,43 +116,33 @@ header a{
     color: transparent;
     -webkit-background-clip: text;
 }
+.Titre-menu1, .Titre-menu2, .Titre-menu3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-.Titre-menu1 h3{
+.Titre-menu1 h3, .Titre-menu2 h3{
     font-family: 'segoe print', 'tillana'; 
     margin-top: 3%;
     font-size: 2em;
-    justify-content: center;
-    text-align: center;
-    position: relative;
     color: #d17200;
+}
+
+.Titre-menu2 h3{
+    color: #ac6baf;
+}
+
+.Titre-menu3 h3{
+    color: #905bfd;
 }
 
 .entree li{
     color: #d17200;
 }
 
-.Titre-menu2 h3{
-    font-family: 'segoe print', 'tillana'; 
-    margin-top: 3%;
-    font-size: 2em;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    color: #ac6baf;
-}
-
 .repas li{
     color: #ac6baf;
-}
-
-.Titre-menu3 h3{
-    font-family: 'segoe print', 'tillana'; 
-    margin-top: 3%;
-    font-size: 2em;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    color: #905bfd;
 }
 
 .dessert li{
@@ -122,7 +162,7 @@ li{
 }
 li p{
     font-family: 'tillana';
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 .plat{
    margin-left: 10% 
@@ -173,4 +213,23 @@ footer a{
     80%{transform: translate(1px,1px);}
     90%{transform: translate(-1px,-1px);}
     100%{transform: translate(1px,1px);}
+}
+
+/*responsive*/
+
+@media screen and (max-width:1200px)
+{
+    img{
+        height: 30px;
+    }
+    .menu2{
+        margin-bottom: 10%;
+        height: 1700px
+    }
+    li{
+        font-size: 1.3em;
+    }
+    .plat{
+        margin-left: 2%
+    }
 }

@@ -64,7 +64,7 @@ header a{
 -webkit-transform: scale(1.2);
 	transform: scale(1.2);
     opacity: .5;
-    transition: transform 3s;
+    transition: transform 1s;
 }
 #music{
     font-size: 130px;
@@ -198,7 +198,7 @@ footer a{
 }
 
 .mention:hover, .p2:hover{
-    -webkit-animation: wiggle 0.5s infinite;
+    -webkit-animation: wiggle .1s infinite;
 }
 /*keyframes*/
 
