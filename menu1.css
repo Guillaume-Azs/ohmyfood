@@ -27,17 +27,12 @@ header a{
 }
 
 /*Corps*/
-
-.trait1, .trait2{
-    position: absolute;
-}
-.trait1{
-    margin-left: 8%;
+.Titre-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.trait2{
-    margin-left: 60%
-}
 .premiertitre{
     font-size: 2em;
     text-align: center;
@@ -74,6 +69,11 @@ header a{
     text-align: center;
 }
 
+span:hover{
+    border-bottom:3px solid #3c1218;
+    animation: bar 1000ms linear;
+}
+
 h3{
     font-family: 'segoe print', 'tillana';
     margin-top: 3%;
@@ -99,23 +99,21 @@ li p{
 }
 
 #music2{
-    margin-top: 5%;
     font-size: 90px;
     background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
     color: transparent;
     -webkit-background-clip: text;
-    margin-left: 35%
 }
 .note2{
     font-size: 50px;
     font-family: 'devonshire', cursive;
-    margin: 0;
     color: #3c1218;
     margin-left: 2%;
 }
-
-#music2, .note2{
-    display: inline-flex;
+.note2eme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*footer*/
 
@@ -158,4 +156,21 @@ footer a{
     80%{transform: translate(1px,1px);}
     90%{transform: translate(-1px,-1px);}
     100%{transform: translate(1px,1px);}
+}
+
+@-webkit-keyframes bar{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+/*responsive*/
+
+@media screen and (max-width: 1000px)
+{
+    img{
+        height: 35px
+    }
 }
