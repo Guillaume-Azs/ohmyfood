@@ -265,6 +265,10 @@ footer a{
     }
     .prochainement{
         font-size: 45px;
-        width: 410px;
+        width: 450px;
+    }
+    .menu1, .menu2, .menu3, .menu4{
+        width: 700px;
+        height: 950px;
     }
 }

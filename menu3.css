@@ -45,68 +45,26 @@ header a{
     font-weight: normal;
 }
 
-.menu2{
+.menu3{
     width: 90%;
     height: 1300px;
     border-radius: 1%;
     box-shadow: 0.5px 0.5px 10px grey;
-    background-color: #fff5fe;
+    background-color: #f9f9f9;
     margin: 0 auto;
     margin-bottom: 10%;
 }
-.chic{
+.delice{
     font-size: 50px;
-    font-family: 'croissant one';
+    font-family: 'parisienne';
     display: flex;
     justify-content: center;
     text-align: center;
     padding-top: 7%;
     margin-bottom: 7%;
-    background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
+    background-image: linear-gradient(to right, #0431df, #0655eb, #126df1, #0887fb);
     color: transparent;
     -webkit-background-clip: text;
-}
-
-.Titre-menu1 h3{
-    font-family: 'segoe print', 'tillana'; 
-    margin-top: 3%;
-    font-size: 2em;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    color: #d17200;
-}
-
-.entree li{
-    color: #d17200;
-}
-
-.Titre-menu2 h3{
-    font-family: 'segoe print', 'tillana'; 
-    margin-top: 3%;
-    font-size: 2em;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    color: #ac6baf;
-}
-
-.repas li{
-    color: #ac6baf;
-}
-
-.Titre-menu3 h3{
-    font-family: 'segoe print', 'tillana'; 
-    margin-top: 3%;
-    font-size: 2em;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    color: #905bfd;
-}
-
-.dessert li{
-    color: #905bfd;
 }
 
 h3{

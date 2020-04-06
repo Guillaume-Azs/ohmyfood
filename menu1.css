@@ -32,7 +32,7 @@ header a{
     position: absolute;
 }
 .trait1{
-    margin-left: 6%;
+    margin-left: 8%;
 }
 
 .trait2{
@@ -45,72 +45,37 @@ header a{
     font-weight: normal;
 }
 
-.menu2{
+.menu1{
     width: 90%;
-    height: 1300px;
+    height: 1500px;
     border-radius: 1%;
     box-shadow: 0.5px 0.5px 10px grey;
-    background-color: #fff5fe;
+    background-color: #fcdfdb;
     margin: 0 auto;
     margin-bottom: 10%;
 }
-.chic{
+#music{
+    font-size: 90px;
+    background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%
+}
+.note{
     font-size: 50px;
-    font-family: 'croissant one';
+    font-family: 'devonshire', cursive;
+    margin: 0;
+    color: #3c1218;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 7%;
-    margin-bottom: 7%;
-    background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
-    color: transparent;
-    -webkit-background-clip: text;
-}
-
-.Titre-menu1 h3{
-    font-family: 'segoe print', 'tillana'; 
-    margin-top: 3%;
-    font-size: 2em;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    color: #d17200;
-}
-
-.entree li{
-    color: #d17200;
-}
-
-.Titre-menu2 h3{
-    font-family: 'segoe print', 'tillana'; 
-    margin-top: 3%;
-    font-size: 2em;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    color: #ac6baf;
-}
-
-.repas li{
-    color: #ac6baf;
-}
-
-.Titre-menu3 h3{
-    font-family: 'segoe print', 'tillana'; 
-    margin-top: 3%;
-    font-size: 2em;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    color: #905bfd;
-}
-
-.dessert li{
-    color: #905bfd;
 }
 
 h3{
-    font-family: 'segoe print', 'tillana'; 
+    font-family: 'segoe print', 'tillana';
     margin-top: 3%;
     font-size: 2em;
     justify-content: center;
@@ -125,12 +90,32 @@ li p{
     font-size: 1.1em;
 }
 .plat{
-   margin-left: 10% 
+   margin-left: 5% 
 }
 
 .prix{
     margin-left: auto;
     margin-right: 5%;
+}
+
+#music2{
+    margin-top: 5%;
+    font-size: 90px;
+    background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-left: 35%
+}
+.note2{
+    font-size: 50px;
+    font-family: 'devonshire', cursive;
+    margin: 0;
+    color: #3c1218;
+    margin-left: 2%;
+}
+
+#music2, .note2{
+    display: inline-flex;
 }
 /*footer*/
 
