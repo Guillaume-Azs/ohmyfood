@@ -173,4 +173,7 @@ footer a{
     img{
         height: 35px
     }
+    li{
+        font-size: 1.2em;
+    }
 }
