@@ -1,0 +1,134 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*header*/
+.entete{
+    width: 100%;
+}
+h1{
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+}
+header{
+    background-color: #579c87;
+    font-family:'breulgroteskA-regular', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header a{
+    color: #fdcb46;
+    text-decoration: none;
+}
+
+/*Corps*/
+
+.trait1, .trait2{
+    position: absolute;
+}
+.trait1{
+    margin-left: 5%;
+}
+
+.trait2{
+    margin-left: 60%
+}
+.premiertitre{
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.menu4{
+    width: 90%;
+    height: 1300px;
+    border-radius: 1%;
+    box-shadow: 0.5px 0.5px 10px grey;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+.palette{
+    font-size: 50px;
+    font-family: 'tillana';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 7%;
+    margin-bottom: 7%;
+     background-image: linear-gradient(to right, #42973c, #69b852, #9be16c, #bfff7e);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+h3{
+    font-family: 'segoe print', 'tillana'; 
+    margin-top: 3%;
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+li{
+    display: flex
+}
+li p{
+    font-family: 'tillana';
+    font-size: 1.1em;
+}
+.plat{
+   margin-left: 10% 
+}
+
+.prix{
+    margin-left: auto;
+    margin-right: 5%;
+}
+/*footer*/
+
+footer{
+    background-color: #579c87;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#contenair{
+    color: #fdcb46;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'NoyhRW01-SemiLight', sans-serif;
+}
+.mention:hover, .p3:hover{
+    -webkit-animation: wiggle 0.5s infinite;
+}
+
+footer a{
+    color: #fdcb46;
+    text-decoration: none;
+}
+
+/*keyframes*/
+
+@-webkit-keyframes wiggle{
+    0%{transform: translate(1px,1px);}
+    10%{transform: translate(-1px,-1px);}
+    20%{transform: translate(1px,1px);}
+    30%{transform: translate(-1px,-1px);}
+    40%{transform: translate(1px,1px);}
+    50%{transform: translate(-1px,-1px);}
+    60%{transform: translate(1px,1px);}
+    70%{transform: translate(-1px,-1px);}
+    80%{transform: translate(1px,1px);}
+    90%{transform: translate(-1px,-1px);}
+    100%{transform: translate(1px,1px);}
+}
