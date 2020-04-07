@@ -71,13 +71,13 @@ header a {
     transition: width .3s;
 }
 
-.iphone .border3 {
+.iphone .border-3 {
     display: inline-block;
     color: #905bfd;
     text-decoration: none;
 }
 
-.iphone .border3::after {
+.iphone .border-3::after {
     content: '';
     display: block;
     width: 0;
@@ -86,7 +86,7 @@ header a {
     transition: width .3s;
 }
 
-.iphone .border3:hover::after {
+.iphone .border-3:hover::after {
     width: 100%;
     transition: width .3s;
 }
@@ -138,13 +138,13 @@ header a {
     transition: width .3s;
 }
 
-.border3 {
+.border-3 {
     display: inline-block;
     color: #905bfd;
     text-decoration: none;
 }
 
-.border3::after {
+.border-3::after {
     content: '';
     display: block;
     width: 0;
@@ -153,7 +153,7 @@ header a {
     transition: width .3s;
 }
 
-.border3:hover::after {
+.border-3:hover::after {
     width: 100%;
     transition: width .3s;
 }
