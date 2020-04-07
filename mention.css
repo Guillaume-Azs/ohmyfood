@@ -1,36 +1,41 @@
 /*general*/
 
-body, html{
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 /*header*/
-.entete{
+.entete {
     width: 100%;
 }
-h1{
+
+h1 {
     font-size: 4em;
     text-align: center;
     margin: 0;
 }
-header{
+
+header {
     background-color: #579c87;
-    font-family:'breulgroteskA-regular', sans-serif;
+    font-family: 'breulgroteskA-regular', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-header a{
+header a {
     color: #fdcb46;
 }
+
 /*corps*/
-#mention{
+#mention {
     width: 50%;
     height: 1550px;
     text-align: center;
@@ -38,25 +43,28 @@ header a{
     font-family: sans-serif
 }
 
-h2{
+h2 {
     font-size: 2em
 }
-h3{
+
+h3 {
     font-size: 1.2em
 }
-#mention p{
+
+#mention p {
     font-size: 1.3em
 }
+
 /*footer*/
 
-footer{
+footer {
     background-color: #579c87;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-#contenair{
+#contenair {
     color: #fdcb46;
     font-family: 'NoyhRW01-SemiLight', sans-serif;
     font-size: 30px;
@@ -66,45 +74,80 @@ footer{
     margin-right: 3%;
 }
 
-footer a{
+footer a {
     color: #fdcb46;
 }
 
-.mention:hover, .p3:hover{
+.mention:hover,
+.p3:hover {
     -webkit-animation: wiggle .1s infinite;
 }
 
 /*keyframes*/
 
-@-webkit-keyframes wiggle{
-    0%{transform: translate(1px,1px);}
-    10%{transform: translate(-1px,-1px);}
-    20%{transform: translate(1px,1px);}
-    30%{transform: translate(-1px,-1px);}
-    40%{transform: translate(1px,1px);}
-    50%{transform: translate(-1px,-1px);}
-    60%{transform: translate(1px,1px);}
-    70%{transform: translate(-1px,-1px);}
-    80%{transform: translate(1px,1px);}
-    90%{transform: translate(-1px,-1px);}
-    100%{transform: translate(1px,1px);}
+@-webkit-keyframes wiggle {
+    0% {
+        transform: translate(1px, 1px);
+    }
+
+    10% {
+        transform: translate(-1px, -1px);
+    }
+
+    20% {
+        transform: translate(1px, 1px);
+    }
+
+    30% {
+        transform: translate(-1px, -1px);
+    }
+
+    40% {
+        transform: translate(1px, 1px);
+    }
+
+    50% {
+        transform: translate(-1px, -1px);
+    }
+
+    60% {
+        transform: translate(1px, 1px);
+    }
+
+    70% {
+        transform: translate(-1px, -1px);
+    }
+
+    80% {
+        transform: translate(1px, 1px);
+    }
+
+    90% {
+        transform: translate(-1px, -1px);
+    }
+
+    100% {
+        transform: translate(1px, 1px);
+    }
 }
 
 /* responsive */
-@media screen and (max-width:1200px)
-{
-    #mention{
+@media screen and (max-width:1200px) {
+    #mention {
         height: 2800px;
         width: 65%;
         margin-bottom: 5%;
     }
-    h2{
+
+    h2 {
         font-size: 3em;
     }
-    h3{
+
+    h3 {
         font-size: 2em;
     }
-    #mention p{
+
+    #mention p {
         font-size: 1.7em;
     }
 }

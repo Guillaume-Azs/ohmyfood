@@ -1,49 +1,56 @@
 /*general*/
 
-body, html{
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
 }
 
-#contenair1{
+#contenair1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-#contenair2{
+#contenair2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 /*header*/
-.entete{
+.entete {
     width: 100%;
 }
-h1{
+
+h1 {
     font-size: 4em;
     text-align: center;
     margin: 0;
 }
-header{
+
+header {
     background-color: #579c87;
-    font-family:'breulgroteskA-regular', sans-serif;
+    font-family: 'breulgroteskA-regular', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-header a{
+header a {
     color: #fdcb46;
 }
 
 /*corp*/
-.animation1, .animation2, .animation3, .animation4{
+.animation1,
+.animation2,
+.animation3,
+.animation4 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -52,7 +59,11 @@ header a{
     justify-content: center;
     text-align: center
 }
-.menu1, .menu2, .menu3, .menu4{
+
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
     width: 600px;
     height: 850px;
     margin-top: 80px;
@@ -60,38 +71,47 @@ header a{
     box-shadow: 0.5px 0.5px 10px grey;
 }
 
-.animation1:hover, .animation2:hover, .animation3:hover, .animation4:hover{
--webkit-transform: scale(1.2);
-	transform: scale(1.2);
+.animation1:hover,
+.animation2:hover,
+.animation3:hover,
+.animation4:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
     opacity: .5;
     transition: transform 1s;
 }
-#music{
+
+#music {
     font-size: 130px;
     transition: transform .5s;
     background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
     color: transparent;
     -webkit-background-clip: text;
 }
-.note{
+
+.note {
     font-size: 60px;
     font-family: 'devonshire', cursive;
     margin: 0;
 }
-.titre1{
+
+.titre1 {
     font-size: 45px;
     font-weight: bold;
     font-family: 'tillana';
 }
-.note, .titre1{
+
+.note,
+.titre1 {
     color: #3c1218;
 }
-.menu1{
+
+.menu1 {
     background-color: #fcdfdb;
     display: block;
 }
 
-.le-chic{
+.le-chic {
     font-family: 'croissant one';
     font-size: 38px;
     width: 100%;
@@ -100,52 +120,58 @@ header a{
     -webkit-background-clip: text;
 }
 
-.titre2{
+.titre2 {
     font-size: 45px;
     font-family: 'tillana';
     color: #c77412;
 }
 
-.papille{
+.papille {
     font-family: 'parisienne';
     font-size: 50px;
     background-image: linear-gradient(to right, #0431df, #0655eb, #126df1, #0887fb);
     color: transparent;
     -webkit-background-clip: text;
 }
-.titre3{
+
+.titre3 {
     font-size: 45px;
     font-family: 'tillana';
     color: #0887fb;
 }
-.palette{
+
+.palette {
     font-family: 'tillana';
     font-size: 48px;
     background-image: linear-gradient(to right, #42973c, #69b852, #9be16c, #bfff7e);
     color: transparent;
     -webkit-background-clip: text;
 }
-.titre4{
+
+.titre4 {
     font-family: 'tillana';
     font-size: 45px;
     color: #72bf56
 }
-.menu2{
+
+.menu2 {
     background-color: #fff5fe;
 }
 
-.menu3{
+.menu3 {
     background-color: #f9f9f9;
 }
 
-.menu4{
+.menu4 {
     background-color: #fdfffd;
 }
+
 /*footer*/
-#asuivre{
+#asuivre {
     height: 35%;
 }
-.prochainement{
+
+.prochainement {
     background-color: #579c87;
     font-family: 'NoyhRW01-SemiLight', sans-serif;
     color: #fdcb46;
@@ -156,18 +182,18 @@ header a{
     margin: 20px auto;
 }
 
-.prochainement p{
+.prochainement p {
     margin-left: 6%;
 }
 
-footer{
+footer {
     background-color: #579c87;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-#contenair{
+#contenair {
     color: #fdcb46;
     font-family: 'NoyhRW01-SemiLight', sans-serif;
     font-size: 30px;
@@ -177,97 +203,143 @@ footer{
     margin-right: 3%;
 }
 
-#point1, #point2, #point3{
+#point1,
+#point2,
+#point3 {
     font-size: 10px;
 }
 
-#point1{
+#point1 {
     animation: bounce1 1.5s infinite;
 }
 
-#point2{
+#point2 {
     animation: bounce2 1.5s infinite;
 }
 
-#point3{
+#point3 {
     animation: bounce3 1.5s infinite;
 }
 
-footer a{
+footer a {
     color: #fdcb46;
 }
 
-.mention:hover, .p2:hover{
+.mention:hover,
+.p2:hover {
     -webkit-animation: wiggle .1s infinite;
 }
+
 /*keyframes*/
 
-@-webkit-keyframes bounce1{
-    0%{
+@-webkit-keyframes bounce1 {
+    0% {
         transform: translateY(0);
     }
-    50%{
+
+    50% {
         transform: translateY(-13px);
     }
-    70%{
+
+    70% {
         transform: translateY(0)
     }
 }
 
-@-webkit-keyframes bounce2{
-    10%{
+@-webkit-keyframes bounce2 {
+    10% {
         transform: translateY(0);
     }
-    50%{
+
+    50% {
         transform: translateY(-13px);
     }
-    80%{
+
+    80% {
         transform: translateY(0)
     }
 }
 
-@-webkit-keyframes bounce3{
-    15%{
+@-webkit-keyframes bounce3 {
+    15% {
         transform: translateY(0);
     }
-    50%{
+
+    50% {
         transform: translateY(-13px);
     }
-    100%{
+
+    100% {
         transform: translateY(0)
     }
 }
 
-@-webkit-keyframes wiggle{
-    0%{transform: translate(1px,1px);}
-    10%{transform: translate(-1px,-1px);}
-    20%{transform: translate(1px,1px);}
-    30%{transform: translate(-1px,-1px);}
-    40%{transform: translate(1px,1px);}
-    50%{transform: translate(-1px,-1px);}
-    60%{transform: translate(1px,1px);}
-    70%{transform: translate(-1px,-1px);}
-    80%{transform: translate(1px,1px);}
-    90%{transform: translate(-1px,-1px);}
-    100%{transform: translate(1px,1px);}
+@-webkit-keyframes wiggle {
+    0% {
+        transform: translate(1px, 1px);
+    }
+
+    10% {
+        transform: translate(-1px, -1px);
+    }
+
+    20% {
+        transform: translate(1px, 1px);
+    }
+
+    30% {
+        transform: translate(-1px, -1px);
+    }
+
+    40% {
+        transform: translate(1px, 1px);
+    }
+
+    50% {
+        transform: translate(-1px, -1px);
+    }
+
+    60% {
+        transform: translate(1px, 1px);
+    }
+
+    70% {
+        transform: translate(-1px, -1px);
+    }
+
+    80% {
+        transform: translate(1px, 1px);
+    }
+
+    90% {
+        transform: translate(-1px, -1px);
+    }
+
+    100% {
+        transform: translate(1px, 1px);
+    }
 }
 
 /*Responsive*/
 
-@media screen and (max-width: 1080px)
-{
-    #asuivre{
+@media screen and (max-width: 1080px) {
+    #asuivre {
         height: 20%;
     }
-    
-    #contenair{
+
+    #contenair {
         font-size: 40px;
     }
-    .prochainement{
+
+    .prochainement {
         font-size: 45px;
         width: 450px;
     }
-    .menu1, .menu2, .menu3, .menu4{
+
+    .menu1,
+    .menu2,
+    .menu3,
+    .menu4 {
         width: 700px;
         height: 950px;
     }

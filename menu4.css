@@ -1,4 +1,5 @@
-body, html{
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -6,22 +7,24 @@ body, html{
 }
 
 /*header*/
-.entete{
+.entete {
     width: 100%;
 }
-h1{
+
+h1 {
     font-size: 4em;
     text-align: center;
     margin: 0;
 }
-header{
+
+header {
     background-color: #579c87;
-    font-family:'breulgroteskA-regular', sans-serif;
+    font-family: 'breulgroteskA-regular', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-header a{
+header a {
     color: #fdcb46;
     text-decoration: none;
 }
@@ -35,7 +38,7 @@ header a{
 }
 
 .iphone .border::after {
-    content:'';
+    content: '';
     display: block;
     width: 0;
     height: 3px;
@@ -49,7 +52,7 @@ header a{
 }
 
 /*Corps*/
-.note1er{
+.note1er {
     display: flex;
     justify-content: center;
 }
@@ -60,7 +63,7 @@ header a{
 }
 
 .border::after {
-    content:'';
+    content: '';
     display: block;
     width: 0;
     height: 3px;
@@ -73,20 +76,22 @@ header a{
     transition: width .3s;
 }
 
-.Titre-menu1, .Titre-menu2, .Titre-menu3{
+.Titre-menu1,
+.Titre-menu2,
+.Titre-menu3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.premiertitre{
+.premiertitre {
     font-size: 2em;
     text-align: center;
     font-family: sans-serif;
     font-weight: normal;
 }
 
-.menu4{
+.menu4 {
     width: 90%;
     height: 1600px;
     border-radius: 1%;
@@ -95,50 +100,55 @@ header a{
     margin: 0 auto;
     margin-bottom: 20%;
 }
-.palette{
+
+.palette {
     font-size: 50px;
     font-family: 'tillana';
     padding-top: 7%;
     margin-bottom: 7%;
-     background-image: linear-gradient(to right, #42973c, #69b852, #9be16c, #bfff7e);
+    background-image: linear-gradient(to right, #42973c, #69b852, #9be16c, #bfff7e);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
 }
 
-h3{
-    font-family: 'segoe print', 'tillana'; 
+h3 {
+    font-family: 'segoe print', 'tillana';
     margin-top: 3%;
     font-size: 2em;
     justify-content: center;
     text-align: center;
     position: relative;
 }
-li{
+
+li {
     display: flex
 }
-li p{
+
+li p {
     font-family: 'tillana';
     font-size: 1.1em;
 }
-.plat{
-   margin-left: 10% 
+
+.plat {
+    margin-left: 10%
 }
 
-.prix{
+.prix {
     margin-left: auto;
     margin-right: 5%;
 }
+
 /*footer*/
 
-footer{
+footer {
     background-color: #579c87;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-#contenair{
+#contenair {
     color: #fdcb46;
     font-size: 30px;
     display: flex;
@@ -147,46 +157,82 @@ footer{
     margin-right: 3%;
     font-family: 'NoyhRW01-SemiLight', sans-serif;
 }
-.mention:hover, .p3:hover{
+
+.mention:hover,
+.p3:hover {
     -webkit-animation: wiggle 0.5s infinite;
 }
 
-footer a{
+footer a {
     color: #fdcb46;
     text-decoration: none;
 }
 
 /*keyframes*/
 
-@-webkit-keyframes wiggle{
-    0%{transform: translate(1px,1px);}
-    10%{transform: translate(-1px,-1px);}
-    20%{transform: translate(1px,1px);}
-    30%{transform: translate(-1px,-1px);}
-    40%{transform: translate(1px,1px);}
-    50%{transform: translate(-1px,-1px);}
-    60%{transform: translate(1px,1px);}
-    70%{transform: translate(-1px,-1px);}
-    80%{transform: translate(1px,1px);}
-    90%{transform: translate(-1px,-1px);}
-    100%{transform: translate(1px,1px);}
+@-webkit-keyframes wiggle {
+    0% {
+        transform: translate(1px, 1px);
+    }
+
+    10% {
+        transform: translate(-1px, -1px);
+    }
+
+    20% {
+        transform: translate(1px, 1px);
+    }
+
+    30% {
+        transform: translate(-1px, -1px);
+    }
+
+    40% {
+        transform: translate(1px, 1px);
+    }
+
+    50% {
+        transform: translate(-1px, -1px);
+    }
+
+    60% {
+        transform: translate(1px, 1px);
+    }
+
+    70% {
+        transform: translate(-1px, -1px);
+    }
+
+    80% {
+        transform: translate(1px, 1px);
+    }
+
+    90% {
+        transform: translate(-1px, -1px);
+    }
+
+    100% {
+        transform: translate(1px, 1px);
+    }
 }
 
 /* responsive */
 
-@media screen and (max-width:1200px)
-{
-    img{
+@media screen and (max-width:1200px) {
+    img {
         height: 30px;
     }
-    .menu4{
+
+    .menu4 {
         margin-bottom: 10%;
         height: 1800px;
     }
-    li{
+
+    li {
         font-size: 1.4em;
     }
-    .plat{
+
+    .plat {
         margin-left: 0
     }
 }
