@@ -51,15 +51,11 @@ header a{
 }
 #music{
     font-size: 90px;
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
-    padding-top: 3%;
-    background-image: -webkit-linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
     background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    margin-top: 5%;
 }
 .note{
     font-size: 50px;
@@ -113,6 +109,10 @@ li p{
 .prix{
     margin-left: auto;
     margin-right: 5%;
+}
+.note1er{
+    display: flex;
+    justify-content: center;
 }
 
 #music2{

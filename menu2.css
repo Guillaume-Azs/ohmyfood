@@ -27,6 +27,10 @@ header a{
 }
 
 /*Corps*/
+.note1er{
+    display: flex;
+    justify-content: center;
+}
 
 .border1 {
     display: inline-block;
@@ -107,11 +111,6 @@ header a{
 .chic{
     font-size: 50px;
     font-family: 'croissant one';
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-top: 7%;
-    margin-bottom: 7%;
     background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
     color: transparent;
     -webkit-background-clip: text;
