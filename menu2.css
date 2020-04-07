@@ -28,25 +28,66 @@ header a{
 
 /*iphone*/
 
-.iphone .border {
+.iphone .border1 {
     display: inline-block;
-    color: #000;
+    color: #d17200;
     text-decoration: none;
 }
 
-.iphone .border::after {
+.iphone .border1::after {
     content:'';
     display: block;
     width: 0;
     height: 3px;
-    background: #3c1218;
+    background: #d17200;
     transition: width .3s;
 }
 
-.iphone .border:hover::after {
+.iphone .border1:hover::after {
     width: 100%;
     transition: width .3s;
 }
+
+.iphone .border2 {
+    display: inline-block;
+    color: #ac6baf;
+    text-decoration: none;
+}
+
+.iphone .border2::after {
+    content:'';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #ac6baf;
+    transition: width .3s;
+}
+
+.iphone .border2:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.iphone .border3 {
+    display: inline-block;
+    color: #905bfd;
+    text-decoration: none;
+}
+
+.iphone .border3::after {
+    content:'';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #905bfd;
+    transition: width .3s;
+}
+
+.iphone .border3:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
 
 /*Corps*/
 .note1er{
