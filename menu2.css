@@ -115,6 +115,7 @@ header a{
     background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
     color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 .Titre-menu1, .Titre-menu2, .Titre-menu3{
     display: flex;

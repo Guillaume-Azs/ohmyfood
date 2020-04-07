@@ -80,6 +80,7 @@ header a{
      background-image: linear-gradient(to right, #42973c, #69b852, #9be16c, #bfff7e);
     color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 h3{

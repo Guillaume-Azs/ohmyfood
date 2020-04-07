@@ -116,6 +116,7 @@ header a{
     background-image: linear-gradient(to right, #0431df, #0655eb, #126df1, #0887fb);
     color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 h3{

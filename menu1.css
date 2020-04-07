@@ -51,13 +51,14 @@ header a{
 }
 #music{
     font-size: 90px;
-    background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
-    color: transparent;
-    -webkit-background-clip: text;
     margin-top: 5%;
     display: flex;
     justify-content: center;
-    padding-top: 3%
+    padding-top: 3%;
+    background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 .note{
     font-size: 50px;
@@ -118,6 +119,7 @@ li p{
     background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
     color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 .note2{
     font-size: 50px;
