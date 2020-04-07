@@ -27,6 +27,11 @@ header a{
 }
 
 /*Corps*/
+.note1er{
+    display: flex;
+    justify-content: center;
+}
+
 .border1 {
     display: inline-block;
     text-decoration: none;
@@ -108,9 +113,6 @@ header a{
 .delice{
     font-size: 50px;
     font-family: 'parisienne';
-    display: flex;
-    justify-content: center;
-    text-align: center;
     padding-top: 7%;
     margin-bottom: 7%;
     background-image: linear-gradient(to right, #0431df, #0655eb, #126df1, #0887fb);

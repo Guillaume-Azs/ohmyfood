@@ -27,6 +27,10 @@ header a{
 }
 
 /*Corps*/
+.note1er{
+    display: flex;
+    justify-content: center;
+}
 
 .border {
     display: inline-block;
@@ -72,9 +76,6 @@ header a{
 .palette{
     font-size: 50px;
     font-family: 'tillana';
-    display: flex;
-    justify-content: center;
-    text-align: center;
     padding-top: 7%;
     margin-bottom: 7%;
      background-image: linear-gradient(to right, #42973c, #69b852, #9be16c, #bfff7e);

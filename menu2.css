@@ -115,6 +115,7 @@ header a{
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    padding-bottom: 7%;
 }
 .Titre-menu1, .Titre-menu2, .Titre-menu3{
     display: flex;
