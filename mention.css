@@ -70,7 +70,7 @@ footer a{
     color: #fdcb46;
 }
 
-.mention:hover, .p2:hover{
+.mention:hover, .p3:hover{
     -webkit-animation: wiggle .1s infinite;
 }
 
